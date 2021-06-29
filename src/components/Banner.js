@@ -1,9 +1,12 @@
-const Banner = () => {
-    return (
-        <h1>
-            Banner...
-        </h1>
-    )
-}
+import { makeStyles } from "@material-ui/core";
 
-export default Banner
+const Banner = () => {
+  const style = useStyles();
+  return <h1 className={style.root}>Banner...</h1>;
+};
+
+export default Banner;
+
+const useStyles = makeStyles((theme) => ({
+  root: {},
+}));

@@ -1,9 +1,8 @@
 import Banner from "./components/Banner";
 import Explanation from "./components/Explanation";
-import Layout from "./components/Layout";
 import Presentation from "./components/Presentation";
 import StickyFooter from "./components/StickyFooter";
-
+import Layout from "./components/Layout";
 
 function App() {
   return (
